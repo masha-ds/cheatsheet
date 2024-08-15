@@ -190,7 +190,8 @@ origin    git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (
 
 ```bash
 $ git push -u origin main # Если команда приведёт к ошибке, попробуйте 
-                          # заменить main на master. 
+                          # заменить main на master или:
+$ git branch -M main
 ```
 
 
