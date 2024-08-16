@@ -224,11 +224,11 @@ $ git push -u origin main # Если команда приведёт к ошиб
 
 ```mermaid
 flowchart TD
-	A["**untracked**"] -- git add --> B["`**staged** (в списке на коммит) + tracked`"];
+	A[untracked] -- git add --> B["`**staged** (в списке на коммит) + tracked`"];
 	B -- git commit --> C["`**tracked** (отслеживаемый)`"];
-	C -- Changes --> D["`**modified**`"];
+	C -- Changes --> D[modified];
 	D -- git add --> B["`**staged** (в списке на коммит) + tracked`"];
-	B -.Changes.-> D["**modified**"];
+	B -.Changes.-> D[modified];
 ```
 
 1. Файл только что создали. Git ещё не отслеживает содержимое этого файла. Состояние: untracked.
