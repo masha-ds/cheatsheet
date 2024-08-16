@@ -190,8 +190,7 @@ origin    git@github.com:%ИМЯ_АККАУНТА%/%ИМЯ-ПРОЕКТА%.git (
 
 ```bash
 $ git push -u origin main # Если команда приведёт к ошибке, попробуйте 
-                          # заменить main на master или:
-$ git branch -M main
+                          # заменить main на master. 
 ```
 
 ## Навигация по коммитам
@@ -225,11 +224,11 @@ $ git branch -M main
 
 ```mermaid
 flowchart LR
-	A[**untracked**] -- git add --> B[**staged** (в списке на коммит) + tracked];
-	B -- git commit --> C[**tracked** (отслеживаемый)];
-	C -- Changes --> D[**modified**];
-	D -- git add --> B[**staged** (в списке на коммит) + tracked];
-	B -.Changes.-> D[**modified**];
+	A["**untracked**"] -- git add --> B["**staged** (в списке на коммит) + tracked"];
+	B -- git commit --> C["**tracked** (отслеживаемый)"];
+	C -- Changes --> D["**modified**"];
+	D -- git add --> B["**staged** (в списке на коммит) + tracked"];
+	B -.Changes.-> D["**modified**"];
 ```
 
 1. Файл только что создали. Git ещё не отслеживает содержимое этого файла. Состояние: untracked.
