@@ -254,3 +254,6 @@ flowchart LR
 - **staged** (Changes to be committed в выводе git status);
 - **modified** (Changes not staged for commit);
 - **untracked** (Untracked files).
+
+Коммиты должны быть хорошо читаемы, информативны, в одном стиле. Иногда указывается номер задачи, используются инфинитивы, а в английском языке - повелительное наклонение.
+
