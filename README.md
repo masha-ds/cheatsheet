@@ -1,4 +1,4 @@
-# Git Cheatlist
+# Git Cheatsheet
 
 ---------------------------------
 
