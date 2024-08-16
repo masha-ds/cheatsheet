@@ -223,7 +223,7 @@ $ git push -u origin main # Если команда приведёт к ошиб
 [Оформление диаграмы](https://mermaid.js.org/syntax/flowchart.html)
 
 ```mermaid
-flowchart TR
+flowchart TD
 	A["**untracked**"] -- git add --> B["`**staged** (в списке на коммит) + tracked`"];
 	B -- git commit --> C["`**tracked** (отслеживаемый)`"];
 	C -- Changes --> D["`**modified**`"];
